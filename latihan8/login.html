@@ -2,7 +2,7 @@
 <?php 
 session_start();
 if(isset($_SESSION['login'])){
-    header("location:home.php");
+    header("location:home.html");
     exit;
 }
 ?>
@@ -13,7 +13,7 @@ if(isset($_SESSION['login'])){
     <title>Login Here</title>
 </head>
 <body>
-    <form action="proseslogin.php" method="post" name="input">
+    <form action="proseslogin.html" method="post" name="input">
         <h2><center>Login Here...</center></h2>
         <table align="center">
             <tr>
